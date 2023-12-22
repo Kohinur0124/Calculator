@@ -1,0 +1,46 @@
+body{
+    width: 290px;
+
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 25px;
+    
+}
+input{
+    text-align: right;
+    margin-top: 20px;
+    align-content: center;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 240px;
+    height: 35px;
+}
+
+p{
+    text-align: right;
+    margin: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+div{
+    margin-left: 10px;
+    width: 260px;
+}
+
+button{
+    font-size:20px ;
+    margin: 5px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.lastrow{
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+}

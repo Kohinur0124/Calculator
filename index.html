@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body onkeydown="myFunction(event)">
+    
+    <div>
+        <div>
+            <input type="text">
+            <p>
+            
+            </p>
+        </div>
+        <div>
+            <button onclick="clr()" >
+                C
+            </button>
+            <button onclick="backs()">
+                ←
+            </button>
+            <button onclick="wr('%')">
+                %
+            </button>
+            <button class="lastrow" onclick="wr('/')">
+                /
+            </button>
+        </div>
+        <div>
+            <button onclick="wr('7')">
+                7
+            </button>
+            <button onclick="wr('8')">
+                8
+            </button>
+            <button onclick="wr('9')">
+                9
+            </button>
+            <button  class="lastrow" onclick="wr('*')">
+                x
+            </button>
+        </div>
+        <div>
+            <button onclick="wr('4')">
+                4
+            </button>
+            <button onclick="wr('5')">
+                5
+            </button>
+            <button onclick="wr('6')">
+                6
+            </button>
+            <button  class="lastrow" onclick="wr('-')">
+                -
+            </button>
+        </div>
+        <div>
+            <button onclick="wr('1')">
+                1
+            </button>
+            <button onclick="wr(2)">
+                2
+            </button>
+            <button onclick="wr(3)">
+                3
+            </button>
+            <button  class="lastrow" onclick="wr('+')">
+                +
+            </button>
+        </div>
+        <div>
+            <button  onclick="wr('0')">
+                0
+            </button>
+            <button onclick="wr('00')">
+                00
+            </button>
+            <button onclick="wr('.')">
+                .
+            </button>
+            <button  class="lastrow" onclick="solve()">
+                =
+            </button>
+        </div>
+        <p></p>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
